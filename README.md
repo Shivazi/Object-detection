@@ -2,24 +2,7 @@
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
-# Training Custom Objects
-https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
 
-# Object labeling
-https://github.com/tzutalin/labelImg
-
-```
-git clone https://github.com/tzutalin/labelImg.git
-```
-
-# Python 2 + Qt4
-```
-sudo apt-get install pyqt4-dev-tools
-sudo pip install lxml
-make qt4py2
-python labelImg.py
-python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-```
 # Pyhton 3
 ```
 git clone https://github.com/tensorflow/models.git
@@ -58,9 +41,35 @@ unzip protobuf.zip
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 ```
 
-# Other installl
+# Opencv installl
 ```
 pip3 install tqdm
 pip3 install opencv-contrib-python
 
+```
+# Training Custom Objects
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
+
+# Object labeling
+https://github.com/tzutalin/labelImg
+
+```
+git clone https://github.com/tzutalin/labelImg.git
+```
+
+# Python 2 + Qt4
+```
+sudo apt-get install pyqt4-dev-tools
+sudo pip install lxml
+make qt4py2
+python labelImg.py
+python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+```
+# Python 3 + Qt5
+```
+sudo apt-get install pyqt5-dev-tools
+sudo pip3 install -r requirements/requirements-linux-python3.txt
+make qt5py3
+python3 labelImg.py
+python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```

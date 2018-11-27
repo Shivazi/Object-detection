@@ -20,3 +20,7 @@ make qt4py2
 python labelImg.py
 python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
+# Pyhton 3
+```
+pip3 install tensorflow-gpu
+```

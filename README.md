@@ -68,6 +68,7 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 # Python 3 + Qt5
 ```
 sudo apt-get install pyqt5-dev-tools
+cd labelImg/
 sudo pip3 install -r requirements/requirements-linux-python3.txt
 make qt5py3
 python3 labelImg.py

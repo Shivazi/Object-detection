@@ -2,7 +2,7 @@
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
-
+# Step 1 setup for object detection
 # Pyhton 3
 ```
 git clone https://github.com/tensorflow/models.git
@@ -47,8 +47,14 @@ pip3 install tqdm
 pip3 install opencv-contrib-python
 
 ```
+# Step 2 Custom Object train
 # Training Custom Objects
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
+
+# sub-step 1 
+Image collection
+
+# sub-step 2 image labeling
 
 # Object labeling
 https://github.com/tzutalin/labelImg

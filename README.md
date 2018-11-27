@@ -80,3 +80,11 @@ make qt5py3
 python3 labelImg.py
 python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
+collect image and label image and 20% past in test derectory and 80% train derectory
+# Creating TFRecords
+Convert xml to csv
+```
+pip3 install pandas
+python3 xml_to_csv.py
+
+```

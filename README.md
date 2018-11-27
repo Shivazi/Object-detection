@@ -43,8 +43,24 @@ cp -r pycocotools /home/nybsys/project/object_detection/models/research/
 # From tensorflow/models/research/
 protoc object_detection/protos/*.proto --python_out=.
 ```
+# Protobuf manualy
+```
+# From tensorflow/models/research/
+wget -O protobuf.zip https://github.com/google/protobuf/releases/download/v3.0.0/protoc-3.0.0-linux-x86_64.zip
+unzip protobuf.zip
+
+# From tensorflow/models/research/
+./bin/protoc object_detection/protos/*.proto --python_out=.
+```
 # Add Libraries to PYTHONPATH
 ```
 # From tensorflow/models/research/
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+```
+
+# Other installl
+```
+pip3 install tqdm
+pip3 install opencv-contrib-python
+
 ```

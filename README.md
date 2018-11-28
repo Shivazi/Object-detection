@@ -96,7 +96,7 @@ python3 xml_to_csv.py
   
 python3 xml_to_csv.py -i /home/nybsys/project/object_detection/workspace/training_demo/images/train -o /home/nybsys/project/object_detection/workspace/training_demo/annotations/train_labels.csv
  
- python3 generate_tfrecord.py --label=ship --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/train_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/train.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/train
+ python3 generate_tfrecord.py --label=riksha --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/train_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/train.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/train
  
- python3 generate_tfrecord.py --label=ship --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/test
+ python3 generate_tfrecord.py --label=riksha --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/test
 ```

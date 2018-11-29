@@ -61,14 +61,14 @@ TensorFlow
 │ ├─ samples
 │ └─ tutorials
 └─ workspace
-└─ training_demo
-   ├─ annotations
-   ├─ images
-   │ ├─ test
-   │ └─ train
-   ├─ pre-trained-model
-   ├─ training
-   └─ README.md
+   └─ training_demo
+      ├─ annotations
+      ├─ images
+      │ ├─ test
+      │ └─ train
+      ├─ pre-trained-model
+      ├─ training
+      └─ README.md
 
 ```
 # Adding necessary Environment Variables

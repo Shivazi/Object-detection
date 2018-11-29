@@ -126,3 +126,7 @@ python3 xml_to_csv.py -i /home/nybsys/project/object_detection/workspace/trainin
  
  python3 generate_tfrecord.py --label=riksha --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/test
 ```
+# Training model
+```
+python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
+```

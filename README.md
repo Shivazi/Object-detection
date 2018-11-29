@@ -51,8 +51,10 @@ pip3 install opencv-contrib-python
 # Training Custom Objects
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
 # Adding necessary Environment Variables
+
+object_detection folder add to python environment
 ```
-export PYTHONPATH=$PYTHONPATH:/home/nybsys/project/object_detection/models/research/object_detection
+export PYTHONPATH=$PYTHONPATH:/home/nybsys/project/object_detection/models/research
 ```
 # sub-step 1 
 Image collection

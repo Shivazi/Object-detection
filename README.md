@@ -111,15 +111,13 @@ collect image and label image and 20% past in test derectory and 80% train derec
 # Convert xml to csv
 ```
 pip3 install pandas
-python3 xml_to_csv.py
-
-```
-# Creating TFRecords
-```
  python3 xml_to_csv.py -i /home/nybsys/project/object_detection/workspace/training_demo/images/test -o /home/nybsys/project/object_detection/workspace/training_demo/annotations/test_labels.csv
   
 python3 xml_to_csv.py -i /home/nybsys/project/object_detection/workspace/training_demo/images/train -o /home/nybsys/project/object_detection/workspace/training_demo/annotations/train_labels.csv
- 
+
+```
+# Creating TFRecords
+``` 
  python3 generate_tfrecord.py --label=riksha --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/train_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/train.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/train
  
  python3 generate_tfrecord.py --label=riksha --csv_input=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test_labels.csv --output_path=/home/nybsys/project/object_detection/workspace/training_demo/annotations/test.record --img_path=/home/nybsys/project/object_detection/workspace/training_demo/images/test

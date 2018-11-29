@@ -60,6 +60,10 @@ TensorFlow
 │ ├─ research
 │ ├─ samples
 │ └─ tutorials
+├─ scripts
+│ └─ preprocessing
+|    ├─ xml_to_csv.py
+|    └─ generate_tfrecord.py
 └─ workspace
    └─ training_demo
       ├─ annotations

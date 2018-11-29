@@ -50,6 +50,26 @@ pip3 install opencv-contrib-python
 # Step 2 Custom Object train
 # Training Custom Objects
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
+# Project directory map
+TensorFlow
+├─ addons
+│ └─ labelImg
+├─ models
+│ ├─ official
+│ ├─ research
+│ ├─ samples
+│ └─ tutorials
+└─ workspace
+└─ training_demo
+   ├─ annotations
+   ├─ images
+   │ ├─ test
+   │ └─ train
+   ├─ pre-trained-model
+   ├─ training
+   └─ README.md
+
+
 # Adding necessary Environment Variables
 
 object_detection folder add to python environment

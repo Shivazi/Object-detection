@@ -79,7 +79,9 @@ TensorFlow
 
 object_detection folder add to python environment
 ```
+nano .bashrc
 export PYTHONPATH=$PYTHONPATH:/home/nybsys/project/object_detection/models/research
+export PYTHONPATH=$PYTHONPATH:/home/nybsys/project/object_detection/models/research/slim
 ```
 # sub-step 1 
 Image collection

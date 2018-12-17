@@ -1,7 +1,8 @@
 # Object-detection
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
-
+# Data download
+http://www.image-net.org/challenges/LSVRC/2012/nonpub-downloads
 # Step 1 setup for object detection
 # Pyhton 3
 ```
